@@ -6,6 +6,7 @@ import org.apache.spark.sql.functions._
 
 object Tokenizer2 {
   def main(args: Array[String]): Unit = {
+    //test
     test()
   }
   def test(): Unit ={
