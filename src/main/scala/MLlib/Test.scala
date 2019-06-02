@@ -5,5 +5,6 @@ object Test {
     //test
     println("v1")
     println("v2")
+    println("v3")
   }
 }
