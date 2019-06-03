@@ -1,6 +1,6 @@
 package MLlib
 
-import org.apache.spark.ml.feature.{HashingTF, IDF, Tokenizer}
+import org.apache.spark.ml.feature.{HashingTF, IDF, StopWordsRemover, Tokenizer}
 import org.apache.spark.sql.SparkSession
 
 class TokenizerTest {
@@ -15,18 +15,25 @@ object TokenizerTest{
     val spark=SparkSession.builder().appName("MyTokenizerTest").master("local").getOrCreate()
 
     val sentenceData = spark.createDataFrame(Seq(
-      (0.0, "Hi I heard about Spark"),
-      (0.0, "I wish Java could use case classes"),
-      (1.0, "Logistic regression models are neat")
-    )).toDF("label", "sentence")
+      (0, "Hi I heard about Spark",1.0),
+      (1, "I wish Java could use case classes",0.0),
+      (2, "Logistic regression models are neat",1.0),
+      (3, "Logistic regression models are neat",0.0)
+    )).toDF("id", "sentence","label")
 
+    //分词转换
     val tokenizer = new Tokenizer().setInputCol("sentence").setOutputCol("words")
-    val wordsData = tokenizer.transform(sentenceData)
+    val tokenizerDF=tokenizer.transform(sentenceData)
 
+    //停用词转换
+    val stopWordRemover=new StopWordsRemover().setInputCol("words").setOutputCol("filtered")
+    val stopWordRemoveDF=stopWordRemover.transform(tokenizerDF)
+
+    //
     val hashingTF = new HashingTF()
-      .setInputCol("words").setOutputCol("rawFeatures").setNumFeatures(20)
+      .setInputCol("filtered").setOutputCol("rawFeatures").setNumFeatures(20)
 
-    val featurizedData = hashingTF.transform(wordsData)
+    val featurizedData = hashingTF.transform(stopWordRemoveDF)
     // alternatively, CountVectorizer can also be used to get term frequency vectors
 
     val idf = new IDF().setInputCol("rawFeatures").setOutputCol("features")
