@@ -8,6 +8,7 @@ object Word2VecTest {
   val spark=SparkSession.builder().appName("MyTokenizerTest").master("local").getOrCreate()
 
   def main(args: Array[String]): Unit = {
+    //test
     test1()
   }
   def test1(): Unit ={
