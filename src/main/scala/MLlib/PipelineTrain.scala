@@ -30,11 +30,11 @@ object PipelineTrain {
     //
     val model = pipeline.fit(training, paramMap)
     //存储模型、pipeline
-    model.write.overwrite().save("")
-    pipeline.write.overwrite().save("")
+    model.write.overwrite().save("test/model.txt")
+    pipeline.write.overwrite().save("test/pipeline.txt")
     //读取模型、pipeline
-    val sameModel_load=PipelineModel.load("")
-    val pipeline_load=Pipeline.load("path")
+    val sameModel_load=PipelineModel.load("test/model.txt")
+    val pipeline_load=Pipeline.load("test/pipeline.txt")
     //预测数据
     model.transform(training).show()
   }
