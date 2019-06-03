@@ -23,11 +23,15 @@ object Word2VecTest {
     val word2Vec = new Word2Vec()
       .setInputCol("text")
       .setOutputCol("result")
-      .setVectorSize(3)
+      .setVectorSize(4)
       .setMinCount(0)
+
     val model = word2Vec.fit(documentDF)
 
     val result = model.transform(documentDF)
+
+    result.printSchema()
+
     result.collect().foreach { case Row(text: Seq[_], features: Vector) =>
       println(s"Text: [${text.mkString(",")}] => \nVector: $features\n") }
   }
