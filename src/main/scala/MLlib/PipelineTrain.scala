@@ -40,9 +40,9 @@ object PipelineTrain {
 
     //创建估计器
     val lr = new LogisticRegression()
-    //创建参数Map
+    //创建参数Map为 转换器和计算机传入参数
     val paramMap = ParamMap(hashingTF.outputCol -> "features", hashingTF.numFeatures -> 1000,lr.maxIter -> 10, lr.regParam -> 0.01)
-    //创建管道，并传入转化器、估计器
+    //创建管道，并传入转化器、估计器划分stage
     val pipeline = new Pipeline()
     pipeline.setStages(Array(tokenizer,stopWordRemove,hashingTF, lr))
     //管道训练模型

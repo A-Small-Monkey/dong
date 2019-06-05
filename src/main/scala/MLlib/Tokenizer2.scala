@@ -4,6 +4,10 @@ import org.apache.spark.ml.feature.{RegexTokenizer, Tokenizer}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 
+/**
+  *
+  * Tokenizer分词器只能将文本按照空格切开，非空格切割词汇是一个单词,并且单词全都转换为小写
+  */
 object Tokenizer2 {
   def main(args: Array[String]): Unit = {
     //test

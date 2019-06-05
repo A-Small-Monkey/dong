@@ -8,7 +8,7 @@ import org.apache.spark.ml.recommendation.ALS
 import org.apache.spark.sql.SparkSession
 
 /**
-  * 基于交变的最小二乘数的推荐
+  * 基于交变最小二乘数的推荐
   */
 object ALSExample {
   //电影数据：用户名，电影i，评分，时间
