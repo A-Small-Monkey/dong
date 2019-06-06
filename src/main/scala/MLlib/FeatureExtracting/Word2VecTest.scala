@@ -16,6 +16,7 @@ object Word2VecTest {
   val spark=SparkSession.builder().appName("MyTokenizerTest").master("local").getOrCreate()
 
   val sc=spark.sparkContext
+  sc.setLogLevel("error")
 
   def main(args: Array[String]): Unit = {
     //test

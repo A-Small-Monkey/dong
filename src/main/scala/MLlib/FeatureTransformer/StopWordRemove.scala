@@ -1,5 +1,8 @@
 package MLlib.FeatureTransformer
 
+import org.apache.spark.ml.feature.StopWordsRemover
+import org.apache.spark.sql.SparkSession
+
 object StopWordRemove {
 
   val spark=SparkSession.builder().appName("MyTokenizerTest").master("local").getOrCreate()

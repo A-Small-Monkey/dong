@@ -1,5 +1,8 @@
 package MLlib.FeatureTransformer
 
+import org.apache.spark.ml.feature.Binarizer
+import org.apache.spark.sql.SparkSession
+
 //Binarizer 是一个二值转换器
 object BinarizerTest {
   def main(args: Array[String]): Unit = {

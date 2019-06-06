@@ -1,7 +1,7 @@
-package MLlib
+package MLlib.FeatureTransformer
 
 import org.apache.spark.ml.feature.VectorAssembler
-import org.apache.spark.sql.types.{DoubleType, IntegerType, StringType, StructField, StructType}
+import org.apache.spark.sql.types.{DoubleType, StructField, StructType}
 import org.apache.spark.sql.{Row, SparkSession}
 
 /**
