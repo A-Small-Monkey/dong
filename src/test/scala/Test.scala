@@ -7,7 +7,5 @@ object Test {
     println(time)
     val currentTime: String = new SimpleDateFormat("yyyyMMddHHmmss").format(time * 1000)
     println(currentTime)
-
   }
-
 }

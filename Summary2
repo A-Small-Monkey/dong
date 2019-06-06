@@ -1,0 +1,58 @@
+1.二值转换器(Transformer)
+    对连续型变量转换为二值的离散型变量
+    Binarizer 对某特征列做一个分类，按阈值切分，小于阈值的为0.0，大于阈值的为1.0
+2.StringIndexer(Estimator)
+    string类型的标签转换为数值
+    转换之后的数值指标取值范围为[0,numLabels]，按照标签出现频率排序，所以出现最频繁的标签其指标为0.0
+3.IndexToString(Estimator）
+    LabelIndex的数值索引标签转换为原有的string类型的标签
+    需要设置原有的string到索引标签的映射 .setLabels(stringIndexerModel.labels)
+4.PCA (Transformer)
+    向量降维的转换器 setK(3)降为3维向量
+5.OneHotEncoder （Transformer）3.0弃用
+    把label映射为二值向量，适合于特征为连续特征的算法 如：a,b,c,d,e,f，并且映射的标签必须为数值类型，如果为string类型需要先进行转换
+    OneHotEncoderEstimator
+    可以对多列进行向量转换，同样转换的特征必须先转换为数值索引类型
+6.VectorAssembler (Transformer)
+    多列特征转换器：将多个列放入一个数组，求多个列的特征值
+
+7.ansj(分词器)
+    StopRecognition 停用词的配置
+    ToAnalysis  精准分词
+8.PolynomialExpansion(Transformer)
+    多项式扩展：特征向量的升维，增加向量维度    .setDegree(3)，对数据做3次幂
+9.VectorIndexer
+    向量索引变换，对于向量类型的特征需要进行分类，将离散类型的特征的分类方法转换为索引，并为每个特征转换一个顺序增长的索引。
+    特征的分类最终是一个Map[Int,Map[Double,Int]] ，key代表该特征的索引,value是特征内部的分类方式，分类的方式是将分类转换为double类型的数值索引。
+
+一.基于交变的最小二乘数ALS实现电影系统的推荐
+    1.首先需要一个用户看电影的行为集合数据
+    （user,movie,time,rate)
+    2.将数据集切分为训练集合和测试集合randomSpilt()
+    3.NLS配置输入用户，产品和评分。
+    4.通过fit训练一个ALSModel
+    5.ALSModel根据用户和产品推荐相关程度前十位的电影和用户
+二.基于购物评价平台的用户标签的建立
+    1.分析商户的评价信息进行商户的标签的划分
+    （商户；JSON(评价)
+    2.取出评价信息
+    3.按商户分类，求出每个商户的前十位标签。
+三。PipeLine
+    管道内部可以理解为一系列的 Transform和Estimator
+    Tokenizer对文本分词
+    StopWordRemover去除文本停用词
+    计算word的HashingTF
+    LogisticRegression模型估算器
+    传入转换器和计算器
+    pipeline.setStages(Array(tokenizer,stopWordRemove,hashingTF, lr))
+四。Word2Vec 单词向量。特征提取
+  * 1.由seq序列数据生成分词之后的数组流 documentDF
+  * 2.设置word2Vec向量 输入col 输出col 输出向量大小，输出总数
+  * 3.word2Vec fit文档，生成该documentDF的Word2VecModel
+  * 4.documentDF文档对应的Word2VecModel transform 转换为最终输出结果的DF
+五。TF-IDF（Estimator）特征提取
+      词频-逆文档词频
+      HashingTF（Transformer）  对特征值做hash并分桶，求每个特征词在文档中出现的次数
+      IDF （Estimator）
+六。CountVectorizer 向量计数的特征提取
+    向量数为double表示每个单词出现的次数
