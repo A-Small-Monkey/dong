@@ -15,6 +15,8 @@ object ClassificationPipeline {
     val conf = new SparkConf().setAppName("Classification with ML Pipeline").setMaster("local")
     val sc = new SparkContext(conf)
     val sqlCtx = new SQLContext(sc)
+    
+    //test
 
     /** Step 1
       * Read the source data file and convert it to be a dataframe with columns named.
