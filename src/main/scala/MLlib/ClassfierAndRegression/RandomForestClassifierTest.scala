@@ -143,6 +143,8 @@ object RandomForestClassifierTest {
 
     model.transform(test).show()
 
+    pipeline
+
 //    val pipelineModel=pipeline.fit(train)
 //
 //    pipelineModel.transform(test).show(false)

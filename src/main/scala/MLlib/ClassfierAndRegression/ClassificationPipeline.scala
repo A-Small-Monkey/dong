@@ -4,6 +4,7 @@ import org.apache.spark.ml.Pipeline
 import org.apache.spark.ml.classification.{RandomForestClassificationModel, RandomForestClassifier}
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 import org.apache.spark.ml.feature.{IndexToString, StringIndexer, VectorAssembler}
+import org.apache.spark.mllib.tree.RandomForest
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -15,8 +16,6 @@ object ClassificationPipeline {
     val conf = new SparkConf().setAppName("Classification with ML Pipeline").setMaster("local")
     val sc = new SparkContext(conf)
     val sqlCtx = new SQLContext(sc)
-    
-    //test
 
     /** Step 1
       * Read the source data file and convert it to be a dataframe with columns named.

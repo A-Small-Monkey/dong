@@ -6,7 +6,7 @@ import org.apache.spark.ml.linalg.Vector
 import org.apache.spark.sql.{Row, SparkSession}
 
 /**
-  * Word2Vec 单词向量。
+  * Word2Vec 单词向量,为每一个单词生成一个单词向量。
   * 1.由seq序列数据生成分词之后的数组流 documentDF
   * 2.设置word2Vec向量 输入col 输出col 输出向量大小，输出总数
   * 3.word2Vec fit文档，生成该documentDF的Word2VecModel

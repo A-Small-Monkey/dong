@@ -2,69 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e61f218f-3fcd-4f40-8344-7c4cfe370ac2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Summary" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Summary2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/TestData/sample_libsvm_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MLlib/ClassfierAndRegression/ClassificationPipeline.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/VectorCountTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/NGramTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/Normailzer.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/PCATest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/PolynomialExpansionTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/QuantileDiscretizerExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/SQLTransformerTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/VectorAssemblerTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/VectorIndexerTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeaturesScaler/VectorSlicerTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/TestData/hour.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MLlib/ClassificationPipeline.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summary2" beforeDir="false" afterPath="$PROJECT_DIR$/Summary2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MLlib/ClassfierAndRegression/ClassificationPipeline.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MLlib/ClassfierAndRegression/ClassificationPipeline.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MLlib/ClassfierAndRegression/RandomForestClassifierTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MLlib/ClassfierAndRegression/RandomForestClassifierTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/VectorCountTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/VectorCountTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/Word2VecTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/Word2VecTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/BinarizerTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/BinarizerTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/StopWordRemove.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/StopWordRemove.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MLlib/VectorAssemblerTest.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/UserLabel/SMGUserLabel/SMGData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UserLabel/SMGUserLabel/SMGData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/UserLabel/SMGUserLabel/UserLableGenerate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UserLabel/SMGUserLabel/UserLableGenerate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/RandomForestClassifierTest.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/BinarizerTest$$typecreator1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/BinarizerTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/BinarizerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/ClassificationPipeline$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/ClassificationPipeline$$anonfun$2$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/ClassificationPipeline$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/ClassificationPipeline$$typecreator1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/ClassificationPipeline$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/ClassificationPipeline.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/One_Hot$$typecreator1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/One_Hot$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/One_Hot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/StopWordRemove$$typecreator1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/StopWordRemove$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/StopWordRemove.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/StringIndexerTest$$typecreator1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/StringIndexerTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/StringIndexerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/TF_IDF$$typecreator1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/TF_IDF$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/TF_IDF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/Tokenizer2$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/Tokenizer2$$typecreator1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/Tokenizer2$$typecreator2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/Tokenizer2$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/Tokenizer2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/VectorAssemblerTest$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/VectorAssemblerTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/VectorAssemblerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/Word2VecTest$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/Word2VecTest$$anonfun$test1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/Word2VecTest$$typecreator1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/Word2VecTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MLlib/Word2VecTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserLabel/SMGUserLabel/SMGData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserLabel/SMGUserLabel/SMGData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserLabel/SMGUserLabel/UserLableGenerate$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserLabel/SMGUserLabel/UserLableGenerate$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserLabel/SMGUserLabel/UserLableGenerate$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserLabel/SMGUserLabel/UserLableGenerate$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/0_tok_001b6e242786/metadata/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/0_tok_001b6e242786/metadata/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/0_tok_001b6e242786/metadata/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/0_tok_001b6e242786/metadata/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/1_stopWords_cfd34e6bb2b6/metadata/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/1_stopWords_cfd34e6bb2b6/metadata/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/1_stopWords_cfd34e6bb2b6/metadata/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/1_stopWords_cfd34e6bb2b6/metadata/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/2_hashingTF_b13c40dd7652/metadata/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/2_hashingTF_b13c40dd7652/metadata/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/2_hashingTF_b13c40dd7652/metadata/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/2_hashingTF_b13c40dd7652/metadata/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/3_logreg_0627b8315264/data/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/3_logreg_0627b8315264/data/.part-00000-e9367150-ad88-4b85-aa4f-34d1b7396fba-c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/3_logreg_0627b8315264/data/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/3_logreg_0627b8315264/data/part-00000-e9367150-ad88-4b85-aa4f-34d1b7396fba-c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/3_logreg_0627b8315264/metadata/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/3_logreg_0627b8315264/metadata/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/3_logreg_0627b8315264/metadata/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/stages/3_logreg_0627b8315264/metadata/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/test/pipeline/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/test/pipeline/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/0_tok_001b6e242786/metadata/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/0_tok_001b6e242786/metadata/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/0_tok_001b6e242786/metadata/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/0_tok_001b6e242786/metadata/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/1_stopWords_cfd34e6bb2b6/metadata/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/1_stopWords_cfd34e6bb2b6/metadata/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/1_stopWords_cfd34e6bb2b6/metadata/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/1_stopWords_cfd34e6bb2b6/metadata/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/2_hashingTF_b13c40dd7652/metadata/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/2_hashingTF_b13c40dd7652/metadata/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/2_hashingTF_b13c40dd7652/metadata/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/2_hashingTF_b13c40dd7652/metadata/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/3_logreg_0627b8315264/metadata/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/3_logreg_0627b8315264/metadata/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/3_logreg_0627b8315264/metadata/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pipeline/stages/3_logreg_0627b8315264/metadata/part-00000" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,11 +73,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/VectorAssemblerTest.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/ClassfierAndRegression/ClassificationPipeline.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-375">
-              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+            <state relative-caret-position="768">
+              <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+              <folding>
+                <element signature="e#38#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/ClassfierAndRegression/RandomForestClassifierTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="141" column="33" lean-forward="true" selection-start-line="141" selection-start-column="33" selection-end-line="141" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/TF_IDF.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding>
+                <element signature="e#33#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/VectorCountTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Summary2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="65" lean-forward="true" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/Word2VecTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <folding>
+                <element signature="e#33#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/PipelineTrain.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+              <folding>
+                <element signature="e#15#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,10 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/temptags.txt" />
-        <option value="$PROJECT_DIR$/src/main/scala/UserLabel/Test.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/UserLabel/DataAnlysis.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MLlib/ALSExample.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/PipelineTrain.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UserLabel/LabelGenerate.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UserLabel/SMGUserLabel/SMG.scala" />
@@ -144,7 +192,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/UserLabel/SMGUserLabel/Data.scala" />
         <option value="$PROJECT_DIR$/data/StopWords/StopWords.txt" />
-        <option value="$PROJECT_DIR$/src/test/scala/Test.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/BinarizerTest.scala" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/scala/UserLabel/SMGUserLabel/SMGData.java" />
@@ -159,20 +206,25 @@
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/Normailzer.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/SQLTransformerTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeaturesScaler/VectorSlicerTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/Word2VecTest.scala" />
         <option value="$PROJECT_DIR$/Summary.txt" />
         <option value="$PROJECT_DIR$/Summary" />
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/NGram.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/VectorCountTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/NGramTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/PACTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/PCATest.scala" />
-        <option value="$PROJECT_DIR$/Summary2" />
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/PolynomialExpansionTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/QuantileDiscretizerExample.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/MultilayerPerceptronClassifierTest/MultilayerPerceptronClassifierTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/MLlib/ClassfierAndRegression/ClassificationPipeline.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/VectorAssemblerTest.scala" />
+        <option value="$PROJECT_DIR$/Summary2" />
+        <option value="$PROJECT_DIR$/src/test/scala/Test.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MLlib/Test/DecisionTreeTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MLlib/ClassfierAndRegression/ClassificationPipeline.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/DecisionTreeTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/RandomForestClassifierTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/Word2VecTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MLlib/ClassfierAndRegression/RandomForestClassifierTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/VectorCountTest.scala" />
       </list>
     </option>
   </component>
@@ -209,8 +261,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -220,6 +272,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,12 +285,6 @@
               <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="scalaTest" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scalaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="TestData" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
@@ -280,6 +328,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="MLlib" type="462c0819:PsiDirectoryNode" />
+              <item name="FeatureExtracting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="MLlib" type="462c0819:PsiDirectoryNode" />
+              <item name="FeaturesScaler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="MLlib" type="462c0819:PsiDirectoryNode" />
               <item name="FeatureTransformer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -303,6 +369,15 @@
               <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="scalaTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="UserLabel" type="462c0819:PsiDirectoryNode" />
+              <item name="SMGUserLabel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,8 +391,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,6 +407,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dong\Documents\IDEA-Space\scalaTest\data\TestData" />
       <recent name="C:\Users\dong\Documents\IDEA-Space\scalaTest\data\StopWords" />
@@ -354,13 +430,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VectorAssemblerTest">
-    <configuration name="NGramTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MLlib.FeatureTransformer.NGramTest" />
+  <component name="RunManager" selected="Application.PipelineTrain">
+    <configuration name="ClassificationPipeline" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MLlib.ClassfierAndRegression.ClassificationPipeline" />
       <module name="scalaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MLlib.FeatureTransformer.*" />
+          <option name="PATTERN" value="MLlib.ClassfierAndRegression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,12 +444,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PCATest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MLlib.FeatureTransformer.PCATest" />
+    <configuration name="DecisionTreeTest (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MLlib.ClassfierAndRegression.RandomForestClassifierTest" />
+      <module name="scalaTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecisionTreeTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MLlib.test.DecisionTreeTest" />
       <module name="scalaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MLlib.FeatureTransformer.*" />
+          <option name="PATTERN" value="MLlib.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -381,25 +464,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolynomialExpansionTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MLlib.FeatureTransformer.PolynomialExpansionTest" />
+    <configuration name="PipelineTrain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MLlib.PipelineTrain" />
       <module name="scalaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MLlib.FeatureTransformer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuantileDiscretizerExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MLlib.FeatureTransformer.QuantileDiscretizerExample" />
-      <module name="scalaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MLlib.FeatureTransformer.*" />
+          <option name="PATTERN" value="MLlib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -422,11 +492,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PipelineTrain" />
+        <item itemvalue="Application.DecisionTreeTest (1)" />
+        <item itemvalue="Application.DecisionTreeTest" />
+        <item itemvalue="Application.ClassificationPipeline" />
         <item itemvalue="Application.VectorAssemblerTest" />
-        <item itemvalue="Application.NGramTest" />
-        <item itemvalue="Application.QuantileDiscretizerExample" />
-        <item itemvalue="Application.PolynomialExpansionTest" />
-        <item itemvalue="Application.PCATest" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +520,8 @@
       <workItem from="1559548101904" duration="7258000" />
       <workItem from="1559608900005" duration="23281000" />
       <workItem from="1559696244373" duration="21288000" />
-      <workItem from="1559782094913" duration="20620000" />
+      <workItem from="1559782094913" duration="23576000" />
+      <workItem from="1560125926127" duration="12424000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1559269171972</created>
@@ -508,18 +579,55 @@
       <option name="project" value="LOCAL" />
       <updated>1559788954876</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test1">
+      <created>1559811416459</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559811416459</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test1">
+      <created>1559811439064</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559811439064</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test1">
+      <created>1560145168158</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560145168158</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test1">
+      <created>1560145191844</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560145191844</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112676000" />
+    <option name="totallyTimeSpent" value="128056000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.33286119" visible="true" weight="0.21514745" />
-      <window_info id="Structure" order="1" sideWeight="0.6671388" side_tool="true" weight="0.21514745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.33144477" visible="true" weight="0.23123324" />
+      <window_info id="Structure" order="1" sideWeight="0.66855526" side_tool="true" weight="0.19638069" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -527,11 +635,11 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.45750707" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.41076487" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.5495751" />
@@ -633,168 +741,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="test1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UserLabel/SMGUserLabel/Data.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#32#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/StopWords/StopWords.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/Test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/StopWordRemove.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UserLabel/LabelGenerate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/BinarizerTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="e#15#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1843">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UserLabel/SMGUserLabel/SMGData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="63" column="68" selection-start-line="63" selection-start-column="68" selection-end-line="63" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UserLabel/DataAnlysis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/Word2VecTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-          <folding>
-            <element signature="e#15#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/Tokenizer2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="e#15#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/dw/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/feature/StopWordsRemover.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="98" column="70" lean-forward="true" selection-start-line="98" selection-start-column="70" selection-end-line="98" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UserLabel/SMGUserLabel/UserLableGenerate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-          <folding>
-            <element signature="e#32#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/StringIndexerTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="38" column="128" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="128" />
-          <folding>
-            <element signature="e#15#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/One_Hot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="e#15#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/Tokenizer2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/ALSExample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
           <folding>
             <element signature="e#57#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/PipelineTrain.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="e#15#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -848,68 +800,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeaturesScaler/package.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeaturesScaler/package.scala" />
     <entry file="jar://$PROJECT_DIR$/../../maven/dw/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/attribute/attributes.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="217" column="35" lean-forward="true" selection-start-line="217" selection-start-column="35" selection-end-line="217" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Summary.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="247">
-            <caret line="13" column="28" lean-forward="true" selection-end-line="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/TF_IDF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/Word2VecTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/VectorCountTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeaturesScaler/VectorSlicerTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#30#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Summary">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Summary2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -960,16 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/PolynomialExpansionTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#34#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/QuantileDiscretizerExample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1007,6 +892,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/ClassificationPipeline.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/VectorAssemblerTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/VectorAssemblerTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/MultilayerPerceptronClassifierTest/MultilayerPerceptronClassifierTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1014,47 +908,232 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Summary.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="247">
+            <caret line="13" column="28" lean-forward="true" selection-end-line="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Summary">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/PolynomialExpansionTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#34#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/test/DecisionTreeTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UserLabel/SMGUserLabel/SMGData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/TestData/hour.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/VectorIndexerTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="399">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="21" />
           <folding>
             <element signature="e#34#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/ClassificationPipeline.scala">
+    <entry file="jar://$PROJECT_DIR$/../../maven/dw/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/feature/LabeledPoint.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="190">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/dw/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0-sources.jar!/org/apache/spark/sql/Encoder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="74" column="6" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/dw/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="2221" column="17" lean-forward="true" selection-start-line="2221" selection-start-column="17" selection-end-line="2221" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/dw/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0-sources.jar!/org/apache/spark/sql/types/StructType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="403" lean-forward="true" selection-start-line="403" selection-end-line="403" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/dw/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/org/apache/spark/sql/SparkSession.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="373" column="6" selection-start-line="373" selection-start-column="6" selection-end-line="373" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/dw/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0-sources.jar!/org/apache/spark/sql/types/ArrayType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/dw/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/classification/RandomForestClassifier.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeaturesScaler/VectorSlicerTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#15#50#0" expanded="true" />
+            <element signature="e#30#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/dw/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/mllib/tree/RandomForest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UserLabel/SMGUserLabel/UserLableGenerate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#32#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UserLabel/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/TF_IDF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#33#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/PipelineTrain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <element signature="e#15#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Summary2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="65" lean-forward="true" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/Word2VecTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="e#33#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/RandomForestClassifierTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="137" column="30" lean-forward="true" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/ClassfierAndRegression/ClassificationPipeline.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/VectorAssemblerTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="768">
+          <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
           <folding>
-            <element signature="e#15#65#0" expanded="true" />
+            <element signature="e#38#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureTransformer/VectorAssemblerTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/ClassfierAndRegression/RandomForestClassifierTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        <state relative-caret-position="152">
+          <caret line="141" column="33" lean-forward="true" selection-start-line="141" selection-start-column="33" selection-end-line="141" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MLlib/FeatureExtracting/VectorCountTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
